@@ -1,0 +1,87 @@
+html{
+  scroll-behavior: smooth;
+}
+.App {
+  text-align: center;
+  background-image: url('./component/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: fit-content;
+  scroll-behavior: none;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.page-wrapper{
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logo{
+    display: none;
+  }
+  .app-bar{
+    display: none;
+  }
+  .page-wrapper{
+    width: 90%;
+  }
+  /* .home-container{
+    display: none;
+  } */
+  .btn-pjt{
+    max-width: 90%;
+    justify-content: center;
+  }
+  .project-container{
+    padding-top: 10px;
+  }
+  .about-me-container{
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .m-logo{
+    display: none;
+  }
+  /* .m-home-container{
+    display: none;
+  } */
+}

@@ -1,0 +1,225 @@
+/* .app-bar{
+    position: fixed;
+    top: 0;
+    margin: 0;
+} */
+ul{
+    padding: 0;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+.home-container{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    height: fit-content;
+}
+.resume-btn{
+    width: fit-content;
+    padding: 0px 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(80, 80, 80);
+    margin: 10px;
+    background: linear-gradient(to right, rgb(71, 77, 87), rgb(43, 52, 70),rgb(9, 20, 39));
+    box-shadow: 0 0 5px rgb(158, 158, 158);
+    color: white;
+    transition: 500ms;
+}
+
+.resume-btn img{
+    height: 50px;
+    margin: auto 0;
+    margin-right: 20px;
+}
+
+.home-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.resume-btn span{
+    display: flex;
+    justify-content: left;
+    font-size: 25px;
+}
+
+.resume-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(69, 122, 202);
+    border: 2px solid rgb(151, 151, 151);
+}
+
+.title-container{
+    width: 70%;
+    margin: 20px auto;
+    min-height: 150px;
+    align-items: center;
+}
+.btn-container{
+    /* margin-top: 50px; */
+}
+
+
+@media only screen and (max-width: 700px) {
+    .resume-btn{
+        padding-top: 0;
+        margin: 10px;
+    }
+    .title-container{
+        width: 90%;
+    }
+}
+
+/* ---------------------   PROJECTS  ---------------------- */
+
+.project-container{
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.project-container p{
+    padding-top: 5%;
+}
+.show{
+    position: relative;
+    display: block;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+.show li{
+    min-width: 35%;
+}
+
+.project-links{
+    text-decoration: none;
+}
+
+.btn-pjt{
+    color: white;
+    padding: 10px 40px;
+    /* width: 45%; */
+    /* min-width: 35%; */
+    /* width: 35%;
+    min-height: 150px; */
+    min-width: 50%;
+    height: fit-content;
+    background: linear-gradient(0.25turn, #1a457c, #2f1370, #38011c);
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 25px;
+    text-align: left;
+    transition: 500ms;
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.btn-pjt div{
+    height: fit-content;
+    margin: 0 20px;
+}
+.btn-pjt img{
+    width: 100px;
+}
+.btn-pjt h1 {
+    margin: 0;
+}
+.btn svg{
+    fill: rgb(45, 145, 145);
+}
+.btn-pjt:hover{
+    transform: scale(1.1);
+    border: 2px solid rgb(45, 182, 245);
+    box-shadow: 0 0 20px rgb(0, 0, 92);
+}
+@media only screen and (max-width: 700px) {
+    .btn-img{
+        display: none;
+    }
+}
+
+/* -----------------------    ABOUT ME    ---------------------- */
+
+.about-me-container {
+    position: relative;
+    height: fit-content;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.about-me-cards{
+    display: block;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.about-me-cards .am-card{
+    background: linear-gradient(to right , rgba(29, 33, 112, 0.726), rgba(78, 34, 182, 0.836), rgba(51, 10, 145, 0.87));
+    min-width: 30%;
+    width: fit-content;
+    max-width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: 0 0 10px rgb(32, 34, 131);
+    overflow: none;
+    margin: 20px auto;
+}
+
+.container .my-story{
+    height: fit-content;
+    text-align: left;
+    /* text-indent: 5%; */
+}
+
+.card-table td{
+    padding: 20px;
+    text-align: left;
+}
+
+.am-card ul{
+    list-style-type: none;
+}
+.am-card h3{
+    padding-left: 5px;
+    color: bisque;
+    font-weight: 100;
+}
+.card-low{
+    justify-content: left;
+    padding-left: 15%;
+    position: relative;
+    top: -25px;
+}
+.footer{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+    position: bottom;
+    bottom: 0px;
+    margin: -1px 0;
+}
+.footer li{
+    margin: 0 10px;
+    color: rgb(185, 184, 184);
+    padding: 5px;
+}
+
+.hr-line{
+    padding: 0;
+}
