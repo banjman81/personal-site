@@ -142,6 +142,69 @@ ul{
     }
 }
 
+.a-box ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    /* text-align: left;
+    text-align: center; */
+}
+
+.a-box li{
+    min-width: 20%;
+    width: fit-content;
+    margin: 10px;
+}
+.a-box h2{
+    margin: 0;
+}
+.a-box li p{
+    margin: 0;
+}
+
+.a-section{
+    background-color: orangered;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    box-shadow: 0 0 5px orange;
+    padding: 2% 5%;
+}
+
+@media only screen and (max-width: 1050px) {
+    .a-box li{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .project-container{
+        padding: 10px;
+    }
+    .about-me-container{
+        padding: 10px;
+    }
+    .a-ul{
+        width: fit-content;
+        display: block;
+    }
+    .a-box li{
+        width: 100%;
+    }
+    .a-section{
+        /* width: 100%; */
+    }
+}
+
+/* @media only screen and (max-width: 520px) {
+
+    .a-box li{
+        width: 80%;
+    }
+} */
+
 /* -----------------------    ABOUT ME    ---------------------- */
 
 .about-me-container {
@@ -191,7 +254,7 @@ ul{
 .am-card ul{
     list-style-type: none;
 }
-.am-card h3{
+.school-info{
     padding-left: 5px;
     color: bisque;
     font-weight: 100;
@@ -215,6 +278,7 @@ ul{
     margin: 0 10px;
     color: rgb(185, 184, 184);
     padding: 5px;
+    text-align: left;
 }
 
 .hr-line{

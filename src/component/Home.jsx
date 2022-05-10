@@ -23,7 +23,7 @@ function Home() {
                         startDelay={1000}
                         cursorColor="black"
                         text="Welcome, My name is Ben and I am a Fullstack Developer."
-                        typeSpeed={80}
+                        typeSpeed={60}
                     />
                     
                 </div>

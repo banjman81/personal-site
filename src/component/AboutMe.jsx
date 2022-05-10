@@ -7,13 +7,13 @@ function AboutMe() {
                 <h1>About Me</h1>
                 <ul className='about-me-cards'>
                     <li className='am-card'>
-                        <p className='sub-font'>Educations</p>
-                                    <h2>Coding Dojo, <span style={{fontSize: "17px", fontWeight: '200'}}>Full Stack Web Development Coding Bootcamp</span></h2>
+                        <h1 className='sub-font'>Educations</h1>
+                                    <h3>Coding Dojo, <span className='school-info' style={{fontSize: "17px", fontWeight: '200'}}>Full Stack Web Development Coding Bootcamp</span></h3>
                                     <h3>14 Wks, Intensive coding bootcamp, testing, coding, pair programming
                                     algorithms
                                     </h3>
                                 <hr />
-                                    <h2>Code Immersives, <span style={{fontSize: "17px", fontWeight: '200'}}>Full Stack Web Development Coding School</span></h2>
+                                    <h3>Code Immersives, <span style={{fontSize: "17px", fontWeight: '200'}}>Full Stack Web Development Coding School</span></h3>
                                     <h3>45 Wks, Web Development Coding Bootcamp, testing, coding, pair
                                         programming algorithms and deployment with AWS
                                     </h3>
@@ -34,10 +34,10 @@ function AboutMe() {
                         </ul>
                     </li>
                     <li className='am-card'>
-                        <p className='sub-font'>Contact Info</p>
+                        <h1 className='sub-font'>Contact Info</h1>
                         <section className='card-table'>
-                            <h2>Benjamin.man97@gmail.com</h2>
-                            <h2>(612) 274-8060</h2>
+                            <p>Benjamin.man97@gmail.com</p>
+                            <p>(612) 274-8060</p>
                         </section>
                     </li>
                 </ul>

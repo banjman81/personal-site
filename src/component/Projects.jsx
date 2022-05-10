@@ -62,6 +62,36 @@ function Projects() {
                     </a>
                 </li>
             </ul>
+            {/* <hr />
+            <div className='a-box'>
+                <h1>Personal Achievements</h1>
+                <ul>
+                    <li>
+                        <div className='a-section'>
+                            <h2>this</h2>
+                            <p>Code Immersives</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='a-section'>
+                            <h2>this</h2>
+                            <p>Coding Dojo</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='a-section'>
+                            <h2>GIthub</h2>
+                            <p>100+</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='a-section'>
+                            <h2>this</h2>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div> */}
         </div>
     )
 }
